@@ -1,4 +1,5 @@
 for(var i = 0;i<100;i++){
+  
     var xmlHTTP;
     xmlHTTP = new XMLHttpRequest();
   
@@ -9,7 +10,6 @@ for(var i = 0;i<100;i++){
     console.log(xmlHTTP);
     document.writeln(xmlHTTP.responseText);
     }
-
 
 }
    
