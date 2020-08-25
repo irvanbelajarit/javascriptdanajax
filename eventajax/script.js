@@ -1,4 +1,6 @@
 
+  function loadAjax(){
+
   
     var xmlHTTP;
     xmlHTTP = new XMLHttpRequest();
@@ -21,7 +23,7 @@
     }
     xmlHTTP.send();
 
-    
+  }
 
 
 
